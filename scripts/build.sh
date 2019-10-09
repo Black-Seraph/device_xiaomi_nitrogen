@@ -68,16 +68,8 @@ cd android_kernel_wireguard
 cd ..
 rm -rf android_kernel_wireguard
 
-# Wipe out the package cache
-rm -rf out/target/product/*/vendor 2>/dev/null
-rm -rf out/target/product/*/system 2>/dev/null
-rm -rf out/target/product/*/obj/ETC 2>/dev/null
-rm -rf out/target/product/*/obj/PACKAGING 2>/dev/null
-
-# Remove old builds to conserve space
-rm -f out/target/product/*/*.zip*
-
 # Build the ROM
 . build/envsetup.sh
 lunch aosip_nitrogen-userdebug
+make clean
 time mka kronic
