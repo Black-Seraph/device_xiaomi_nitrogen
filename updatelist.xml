@@ -4,9 +4,9 @@
         <nitrogen>
             <maintainer>Black-Seraph</maintainer>
             <devicename>Mi Max 3</devicename>
-            <filename>crDroidAndroid-9.0-20191006-nitrogen-v5.8</filename>
+            <filename>crDroidAndroid-9.0-20191013-nitrogen-v5.8</filename>
             <buildtype>Weekly</buildtype>
-            <download>https://github.com/Black-Seraph/device_xiaomi_nitrogen/releases/download/20191006-pie-crdroid/crDroidAndroid-9.0-20191006-nitrogen-v5.8.zip</download>
+            <download>https://github.com/Black-Seraph/device_xiaomi_nitrogen/releases/download/20191013-pie-crdroid/crDroidAndroid-9.0-20191013-nitrogen-v5.8.zip</download>
             <changelog>https://github.com/Black-Seraph/device_xiaomi_nitrogen/commits/pie-crdroid</changelog>
             <gapps>https://opengapps.org</gapps>
             <forum>https://patreon.com/blackseraph</forum>
