@@ -61,13 +61,6 @@ then
 fi
 cd ../..
 
-# Patch in wireguard into the kernel
-git clone https://git.zx2c4.com/android_kernel_wireguard
-cd android_kernel_wireguard
-./patch-kernel.sh ../kernel/xiaomi/nitrogen
-cd ..
-rm -rf android_kernel_wireguard
-
 # Build the ROM
 . build/envsetup.sh
 lunch aosip_nitrogen-userdebug
