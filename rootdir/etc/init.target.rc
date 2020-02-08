@@ -264,7 +264,7 @@ on property:init.svc.zygote=restarting
     stop ppd
 
 on property:sys.boot_completed=1
-    setprop sys.io.scheduler "maple"
+    setprop sys.io.scheduler "cfq"
 
 on charger
     start qcom-post-boot
