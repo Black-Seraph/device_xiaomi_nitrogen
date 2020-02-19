@@ -39,8 +39,8 @@ PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
 PRODUCT_BUILD_PROP_OVERRIDES += \
     TARGET_DEVICE="nitrogen" \
     PRODUCT_NAME="nitrogen" \
-    PRIVATE_BUILD_DESC="nitrogen-user 9 PKQ1.181007.001 V11.0.6.0 release-keys"
+    PRIVATE_BUILD_DESC="nitrogen-user 9 PKQ1.181007.001 V11.0.7.0 release-keys"
 
-BUILD_FINGERPRINT := Xiaomi/nitrogen/nitrogen:9/PKQ1.181007.001/V11.0.6.0.PEDMIXM:user/release-keys
+BUILD_FINGERPRINT := google/coral/coral:10/QQ1D.200205.002/6084393:user/release-keys
 
 TARGET_VENDOR := Xiaomi

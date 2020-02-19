@@ -181,13 +181,13 @@ PRODUCT_PACKAGES += \
     memtrack.sdm660
 
 PRODUCT_PACKAGES += \
-    android.hardware.configstore@1.0-service \
+    android.hardware.configstore@1.1-service \
     android.hardware.broadcastradio@1.0-impl
 
 # DRM
 PRODUCT_PACKAGES += \
-    android.hardware.drm@1.0-impl \
-    android.hardware.drm@1.0-service \
+    android.hardware.drm@1.1-impl \
+    android.hardware.drm@1.1-service \
     android.hardware.drm@1.1-service.clearkey
 
 # Fingerprint feature
@@ -412,7 +412,7 @@ PRODUCT_PACKAGES += vndk-sp
 
 # Wifi
 PRODUCT_PACKAGES += \
-    android.hardware.wifi@1.0-service \
+    android.hardware.wifi@1.2-service \
     hostapd \
     hostapd_cli \
     libqsap_sdk \
